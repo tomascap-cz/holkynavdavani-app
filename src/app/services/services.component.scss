@@ -1,0 +1,27 @@
+::ng-deep {
+    app-text-with-two-images:nth-child(odd) .service-item {
+        background-color: #ffece3;
+    }
+    
+    app-text-with-two-images:nth-child(even) .service-item {
+        background-color: #dfdbdb;
+    }
+
+    app-text-with-two-images:nth-child(odd) .service-item .service-cont {
+        float: left;
+    }
+    
+    app-text-with-two-images:nth-child(even) .service-item .service-cont {
+        float: right;
+    }
+
+    app-text-with-two-images:nth-child(odd) .service-item .service-photo-container {
+        float: right;
+    }
+    
+    app-text-with-two-images:nth-child(even) .service-item .service-photo-container {
+        float: left;
+    }
+}
+
+

@@ -1,0 +1,49 @@
+.welcome {
+    display: flex;
+    padding: 1em 5%;
+    
+    .welcome-text {
+        padding: 0 5em 0 0;
+        line-height: 2;
+        font-size: 20px;
+        font-family: "Encode Sans";
+    }
+}
+
+.profile-heading {
+    font-family: "Courgette";
+    font-size: 25px;
+    margin-bottom: 1em;
+}
+
+.profile-text {
+    font-family: "Encode Sans";
+    font-size: 20px;
+    line-height: 1.4;
+    max-width: 100%;
+    display: inline;
+}
+
+.profile:last-child {
+    padding-bottom: 3em;
+}
+
+.left {
+    float: left;
+    width: 250px;
+    margin: 0 2em 2em 0;
+}
+
+.right {
+    float: right;
+    width: 250px;
+    margin: 0 0 2em 2em;
+}
+
+.profile-photo {
+    min-width: 300px;
+    height: auto;
+    border-radius: 100%;
+    background-color: #ccc;
+    border: 6px solid #fce5d5;
+}

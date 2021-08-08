@@ -1,0 +1,7 @@
+<div class="grid">
+    <app-card
+        *ngFor="let item of items"
+        [text]="item.caption"
+        [img_url]="item.img_url"
+        [alt]="item.name"></app-card>
+</div>

@@ -1,0 +1,7 @@
+<app-page-heading [heading]="'Služby'"></app-page-heading>
+<app-text-with-two-images
+    *ngFor="let item of services"
+    [heading]="item.heading"
+    [text]="item.text"
+    [imageLink1]="item.image1"
+    [imageLink2]="item.image2"></app-text-with-two-images>

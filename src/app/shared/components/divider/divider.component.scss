@@ -1,0 +1,20 @@
+.hr-theme-slash-2 {
+    display: flex;
+
+    .hr-line {
+        width: 100%;
+        position: relative;
+        margin: 50px 0;
+        border-bottom: 2px solid #454545;
+    }
+
+    .hr-icon {
+        position: relative;
+        top: 38px;
+        color: #454545;
+        background-color: #fff;
+        padding: 0 0.75em;
+        font-size: 1.5em;
+        height: 1.75em;
+    }
+}

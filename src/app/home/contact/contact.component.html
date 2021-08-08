@@ -1,0 +1,23 @@
+<div class="contact" [attr.id]="'kontakt'">
+    <h2 class="contact-heading">{{content.title}}</h2>
+    <p class="contact-text">{{content.text}}</p>
+    <form class="contact-form contact-left">
+        <label for="name">{{content.formLabels.name}}</label>
+        <input type="text" id="name" name="name">
+        <label for="email">{{content.formLabels.email}}</label>
+        <input type="email" name="email" id="name">
+        <label for="phone">{{content.formLabels.phone}}</label>
+        <input type="text" id="phone" name="phone">
+        <label for="msg">{{content.formLabels.message}}</label>
+        <textarea name="msg" id="msg" cols="30" rows="10">
+  
+        </textarea>
+        <button type="submit" class="contact-btn">{{content.formLabels.button}}</button>
+    </form>
+    <div class="contact-right">
+        <div class="contact-card">
+            <p *ngFor="let line of addressLines">{{line}}</p>
+        </div>
+        
+    </div>
+</div>

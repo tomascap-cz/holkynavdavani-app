@@ -1,0 +1,28 @@
+.page-top {
+    margin-top: 120px;
+}
+
+hr {
+    border-style: solid;
+    border-color: #454545;
+    margin: 20px 0; /* 20px space above/below, 10px left/right */
+    
+    /* ensure 1px gap between borders */
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+
+.page-heading {
+    position: relative;
+    background-color: #ffffff;
+    top: -1em;
+    left: 1em;
+    display: inline;
+    padding: 0 0.3em;
+    font-family: "Cormorant Infant";
+    font-size: 50px;
+    text-transform: uppercase;
+}

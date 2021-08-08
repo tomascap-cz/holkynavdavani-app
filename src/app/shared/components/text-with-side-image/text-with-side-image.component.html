@@ -1,0 +1,15 @@
+<div>
+<div class="welcome" *ngIf="this.path === 'uvod'">
+    <p class="welcome-text" class="welcome-text">{{text}}</p>
+    <img class="profile-photo" src={{imageLink}} alt="">
+</div>
+
+<div *ngIf="this.path === 'o-nas'" class="profile">
+    <h3 class="profile-heading">{{heading}}</h3>
+    <div class="float">
+        <img class="profile-photo right" src={{imageLink}} alt="">
+        <p class="profile-text">{{text}}</p>
+    
+    </div>
+</div>
+</div>
