@@ -1,3 +1,5 @@
+@import '~hamburgers/_sass/hamburgers/hamburgers.scss';
+
 nav {
     text-transform: uppercase;
     font-family: "Cormorant Infant";
@@ -31,15 +33,59 @@ nav {
         float: right;
     }
 
+    
+}
+
+.logo {
+    display: inline;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: #ffffff;
+    position: absolute;
+    top: 10px;
+    margin-left: 20px;
+    padding: 5px;
+}
+
+.mobile-nav {
+    position: relative;
+    height: 2em;
+
+    button {
+        float: left;
+        margin: 0.8em 0 0 0.8em;
+    }
+
     .logo {
-        display: inline;
+        position: relative;
+        left: -45px;
+        display: block;
+        margin: 0 auto !important;
+        width: 90px;
+        height: 90px;
+        margin-left: 0;
+    }
+
+    .mobile-navigation-links {
+        position: relative;
+        left: 1em;
         width: 150px;
-        height: 150px;
-        border-radius: 100%;
-        background-color: #ffffff;
-        position: absolute;
-        top: 10px;
-        margin-left: 20px;
-        padding: 5px;
+        background-color: rgba(255, 255, 255, 0.8);
+        backdrop-filter: blur(6px);
+        border: 2px solid black;
+        z-index: 100;
+        padding: 1em;
+        font-size: 20px;
+    }
+
+    .mobile-navigation-links ul {
+        list-style-type: none;
+    }
+
+    .mobile-navigation-links li, .mobile-navigation-links li:visited {
+        padding: 0.4em;
+        color: black;
+        text-decoration: none !important;
     }
 }

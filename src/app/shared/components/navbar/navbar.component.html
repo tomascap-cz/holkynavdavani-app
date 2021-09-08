@@ -1,4 +1,4 @@
-<nav>
+<nav *ngIf="!isMobileLayout">
     <ul>
         <a routerLink="/uvod"><li>Úvod</li></a>
         <a routerLink="/o-nas"><li>O nás</li></a>
@@ -12,7 +12,21 @@
     </ul>
 </nav>
 
-<!-- <div>
-    <button>Menu</button>
+<div *ngIf="isMobileLayout" class="mobile-nav">
+    <button class="hamburger hamburger--spin" type="button" (click)="toggleCollapse()" appHamburgerToggle>
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+          </span>
+    </button>
     <img src="../../../../assets/images/logo.png" alt="logo" class="logo">
-</div> -->
+    <div *ngIf="!collapse" class="mobile-navigation-links" [@collapse]="collapse">
+        <ul>
+            <a routerLink="/uvod" (click)="toggleCollapse()"><li>Úvod</li></a>
+            <a routerLink="/o-nas" (click)="toggleCollapse()"><li>O nás</li></a>
+            <a routerLink="/sluzby" (click)="toggleCollapse()"><li>Služby</li></a>
+            <a routerLink="/reference" (click)="toggleCollapse()"><li>Reference</li></a>
+            <a routerLink="/blog" (click)="toggleCollapse()"><li>Blog</li></a>
+            <a routerLink="/uvod" fragment="kontakt" (click)="toggleCollapse()"><li>Kontakt</li></a>
+        </ul>
+    </div>
+</div>

@@ -1,4 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -21,6 +22,7 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { CardComponent } from './shared/components/card/card.component';
 import { BlogComponent } from './blog/blog.component';
+import { HamburgerToggleDirective } from './shared/directives/hamburger-toggle.directive';
 
 @NgModule({
   declarations: [
@@ -39,13 +41,16 @@ import { BlogComponent } from './blog/blog.component';
     TextWithTwoImagesComponent,
     ReferenceComponent,
     CardComponent,
-    BlogComponent
+    BlogComponent,
+    HamburgerToggleDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     CommonModule,
-    FormsModule
+    FormsModule,
+    BrowserModule,
+    BrowserAnimationsModule
   ],
   providers: [ContentService],
   bootstrap: [AppComponent]
