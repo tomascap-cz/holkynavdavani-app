@@ -6,7 +6,12 @@
                 "text": "&copy; {year} Holky na vdávání. Všechna práva vyhrazena."
             },
             "home": {
-                "headerImages": [{"image": "../../../assets/images/title.jpg", "alt": "..."}],
+                "headerImages": [{"image": "../../../assets/images/title1.jpg", "alt": "..."},
+                    {"image": "../../../assets/images/title2.jpg", "alt": "..."},
+                    {"image": "../../../assets/images/title3.jpg", "alt": "..."},
+                    {"image": "../../../assets/images/title4.jpg", "alt": "..."},
+                    {"image": "../../../assets/images/title5.jpg", "alt": "..."},
+                    {"image": "../../../assets/images/title6.jpg", "alt": "..."}],
                 "welcome": {
                     "text": "Hledáte někoho, kdo by Vám pomohl s přípravou celé svatby, nebo jen s organizací svatebního dne? Někoho, kdo do svatby dá celé srdce a připraví všechno podle Vašich představ do nejmenších detailů? Pak jste tady správně! Jsme dvě holky, které se tak nadchly do svatebních příprav svých kamarádek, že se staly profesionálními koordinátorkami a rády pomohou s touto jedinečnou událostí i Vám.",
                     "img_url": "../../../assets/images/profile.jpg"
