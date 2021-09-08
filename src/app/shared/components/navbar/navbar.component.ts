@@ -1,7 +1,8 @@
 import { animate, AUTO_STYLE, state, style, transition, trigger } from '@angular/animations';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 import { Observable, fromEvent } from 'rxjs';
 import { debounceTime, startWith, map } from 'rxjs/operators';
+import { HamburgerToggleDirective } from '../../directives/hamburger-toggle.directive';
 
 @Component({
     selector: 'app-navbar',
@@ -23,6 +24,9 @@ import { debounceTime, startWith, map } from 'rxjs/operators';
       ]
 })
 export class NavbarComponent implements OnInit {
+    @ViewChild(HamburgerToggleDirective)
+    hamburgerToggleDirective: HamburgerToggleDirective;
+
     public isMobileLayout = this.isMobileAgent;
     collapse = true;
 
@@ -40,5 +44,8 @@ export class NavbarComponent implements OnInit {
 
     toggleCollapse(): void {
         this.collapse = !this.collapse;
+        if (this.collapse) {
+            this.hamburgerToggleDirective.toggleActive();
+        }
       }
 }
