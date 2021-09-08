@@ -75,6 +75,31 @@ h2 {
     font-size: 30px;
 }
 
+@media (max-width: 800px) {
+    .contact {
+        width: 80%;
+        margin: 0 auto;
+
+        .contact-left, .contact-right {
+            display: block;
+            float: none;
+            width: 100%;
+        }
+
+        .contact-right {
+            margin: 1em 0;
+        }
+
+        .contact-card {
+            padding-left: 0;
+        }
+
+        form {
+            margin-bottom: 1em;
+        }
+    }
+}
+
 
 
 

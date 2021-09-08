@@ -51,3 +51,22 @@ h3.service-head {
  .service-photo-container img {
      width: 45%;
  }
+
+ @media (max-width: 800px) {
+    .service-cont {
+        width: 60%;
+    }
+
+     .service-photo-container {
+        flex-direction: column;
+        width: 35%;
+
+        .mobile-hide {
+            display: none;
+        }
+     }
+
+     .service-photo-container img {
+         width: 100%;
+     }
+ }

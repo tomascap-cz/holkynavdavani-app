@@ -41,9 +41,31 @@
 }
 
 .profile-photo {
-    min-width: 300px;
+    max-width: 300px;
     height: auto;
     border-radius: 100%;
     background-color: #ccc;
     border: 6px solid #fce5d5;
+}
+
+@media (max-width: 1100px) {
+    .welcome {
+        flex-direction: column-reverse;
+        width: 80%;
+        align-items: center;
+        margin: 0 auto;
+
+        .welcome-text {
+            padding: 0;
+        }
+    }
+
+    .profile {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .profile-photo {
+        margin-bottom: 2em;
+    }
 }
