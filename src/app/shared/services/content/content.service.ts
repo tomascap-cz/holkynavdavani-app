@@ -6,6 +6,7 @@ import textContent from '../../../../assets/bundles_cz.json';
 })
 export class ContentService {
   content = textContent.content;
+  itemToOpen: string;
 
   constructor() { }
 }

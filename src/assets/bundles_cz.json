@@ -87,9 +87,24 @@
             ],
             "references": [
                 {
-                    "name": "Michaela & Luboš",
+                    "link": "michaela-lubos",
                     "caption": "Michaela & Luboš",
-                    "img_url": "../../../assets/images/ref1.jpg"
+                    "img_url": "../../../assets/images/ref1.jpg",
+                    "reference": ["V počátcích přípravy svatby jsem si myslela, že služby koordinátorek na svatbě jsou zbytečné. Ovšem ve svatební den jsem se na vlastní kůži přesvědčila, že opak je pravdou. Naštěstí jsem měla za svědkyni úžasnou Káťu, která se zhostila snad úplně všech rolí, které koordinátorky zastávají a i spousty věcí navíc. Navrhla nám vlastní originální design svatebního oznámení a k tomu veškeré další tiskoviny ve stejném designu, takže k sobě všechno krásně ladilo. Květinovou výzdobu, svatební kytici atd. jsem nechala zcela na ní, jen jsem si řekla barvy, ukázala inspirační fotky a z výsledku jsem byla nadšená. O víkendech jsme vyráběly svatební dekorace, nezalekla se ani osazování skleněných aerárií.",
+                        "Já měla ještě to štěstí, že mi Káťa upekla výborný svatební dort a jako překvapení pusinky s obtisky se svatebním motivem :)",
+                        "Poslední věc, kterou chci zmínit, že Káťa vám zařídí super věci na rozlučku se svobodou, třeba jako mě, kdy jsme všechny holky měly originální trička a placky s vlastním neokoukaným motivem, který sama kreslila."
+                    ]
+                },
+                {
+                    "link": "lucka-bolek",
+                    "caption": "Lucka & Bolek",
+                    "img_url": "../../../assets/images/ref1.jpg",
+                    "reference": ["Milé nevěsty,",
+                        "pokud se rozhodujete, zda si najmout svatební koordinaci, tak Janka s Kačkou jsou ta správná volba pro Vás. Od začátku až do samého konce naší spolupráce jsem si přidala jako v bavlnce, vlastně jako když svatební přípravy plánujete s kamarádkami. Obě holky jsou neskutečně milé a vstřícné, v náš velký den klaplo vše tak, jak mělo a holkám patří velké díky. Strašně moc jsem se bála,ale naprosto zbytečně a určitě nelituji této investice, opravdu stála za to. V koutku duše doufám, že se ještě někdy naše cesty spojí, protože mi holky padly do noty.",
+                        "Holky, patří Vám velké díky a je vidět, že to co děláte, děláte se zapálením a láskou.",
+                        "Snad brzo zase naviděnou",
+                        "Vaše nevěsta Luci"
+                    ]
                 }
             ]
         }

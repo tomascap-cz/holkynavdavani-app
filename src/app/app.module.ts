@@ -23,6 +23,8 @@ import { FormsModule } from '@angular/forms';
 import { CardComponent } from './shared/components/card/card.component';
 import { BlogComponent } from './blog/blog.component';
 import { HamburgerToggleDirective } from './shared/directives/hamburger-toggle.directive';
+import { ReferenceDetailComponent } from './reference-detail/reference-detail.component';
+import { RouterModule } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -42,7 +44,8 @@ import { HamburgerToggleDirective } from './shared/directives/hamburger-toggle.d
     ReferenceComponent,
     CardComponent,
     BlogComponent,
-    HamburgerToggleDirective
+    HamburgerToggleDirective,
+    ReferenceDetailComponent
   ],
   imports: [
     BrowserModule,
@@ -50,7 +53,8 @@ import { HamburgerToggleDirective } from './shared/directives/hamburger-toggle.d
     CommonModule,
     FormsModule,
     BrowserModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    RouterModule
   ],
   providers: [ContentService],
   bootstrap: [AppComponent]

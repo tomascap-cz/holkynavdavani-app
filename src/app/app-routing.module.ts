@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './about/about.component';
 import { BlogComponent } from './blog/blog.component';
 import { HomeComponent } from './home/home.component';
+import { ReferenceDetailComponent } from './reference-detail/reference-detail.component';
 import { ReferenceComponent } from './reference/reference.component';
 import { ServicesComponent } from './services/services.component';
 
@@ -12,7 +13,8 @@ const routes: Routes = [
   { path: 'o-nas', component: AboutComponent },
   { path: 'sluzby', component: ServicesComponent },
   { path: 'reference', component: ReferenceComponent },
-  { path: 'blog', component: BlogComponent}
+  { path: 'reference/:couple', component: ReferenceDetailComponent},
+  { path: 'blog', component: BlogComponent },
 ];
 
 @NgModule({

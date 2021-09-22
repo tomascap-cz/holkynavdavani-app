@@ -1,6 +1,8 @@
-<div class="card">
-    <div class="card-pic">
-        <img [src]="img_url" [alt]="alt">
+<a [routerLink]="'/reference/' + this.link"  (click)="onCardClicked(alt)">
+    <div class="card">
+        <div class="card-pic">
+            <img [src]="img_url" [alt]="alt">
+        </div>
+        <p class="card-text">{{ text }}</p>
     </div>
-    <p class="card-text">{{ text }}</p>
-</div>
+</a>
