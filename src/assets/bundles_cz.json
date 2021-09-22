@@ -96,6 +96,15 @@
                     ]
                 },
                 {
+                    "link": "janka-honza",
+                    "caption": "Janka & Honza",
+                    "img_url": "../../../assets/images/ref1.jpg",
+                    "reference": ["Chcela by som všetkým nevestám odporučiť Janku a jej služby svadobnej koordinátorky, vďaka ktorým sme si užili náš svadobný deň naplno. Príprava svadby je časovo náročná, aj keď sa to na prvý pohľad nemusí zdať. Aj preto som bola rada, že mi Janka poskytla pomocnú ruku pri plánovaní a doladovaní každého detailu. Má cit pre maličkosti a svoju prácu robí s láskou.",
+                        "Z našich schôdzok som vždy odchádzala s úsmevom na perách a dobrým pocitom, že je všetko pod kontrolou. Koordinácia samotného svadobného dňa bola čerešničkou na torte. Všetci hostia si mohli plne užívať deň a Janka sa o všetko potrebné postarala.",
+                        "Ešte raz veľmi pekne ďakujeme!"
+                    ]
+                },
+                {
                     "link": "lucka-bolek",
                     "caption": "Lucka & Bolek",
                     "img_url": "../../../assets/images/ref1.jpg",
@@ -105,7 +114,7 @@
                         "Snad brzo zase naviděnou",
                         "Vaše nevěsta Luci"
                     ]
-                }
+                }                
             ]
         }
     }
