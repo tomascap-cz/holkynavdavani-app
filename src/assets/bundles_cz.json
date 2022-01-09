@@ -1,121 +1,158 @@
 {
-    "content": {
-        "cz": {
-            "menu": ["Úvod", "O nás", "Služby", "Reference", "Blog", "Kontakt"],
-            "footer": {
-                "text": "&copy; {year} Holky na vdávání. Všechna práva vyhrazena."
-            },
-            "home": {
-                "headerImages": [{"image": "../../../assets/images/title1.jpg", "alt": "..."},
-                    {"image": "../../../assets/images/title2.jpg", "alt": "..."},
-                    {"image": "../../../assets/images/title3.jpg", "alt": "..."},
-                    {"image": "../../../assets/images/title4.jpg", "alt": "..."},
-                    {"image": "../../../assets/images/title5.jpg", "alt": "..."},
-                    {"image": "../../../assets/images/title6.jpg", "alt": "..."}],
-                "welcome": {
-                    "text": "Hledáte někoho, kdo by Vám pomohl s přípravou celé svatby, nebo jen s organizací svatebního dne? Někoho, kdo do svatby dá celé srdce a připraví všechno podle Vašich představ do nejmenších detailů? Pak jste tady správně! Jsme dvě holky, které se tak nadchly do svatebních příprav svých kamarádek, že se staly profesionálními koordinátorkami a rády pomohou s touto jedinečnou událostí i Vám.",
-                    "img_url": "../../../assets/images/profile.jpg"
-                },
-                "servicesGrid": [
-                    {"name": "Svatba na klíč", "caption": "Svatba na klíč", "img_url": "../../../assets/images/svatbanaklic.jpg"},
-                    {"name": "Svatební koordinace", "caption": "Svatební koordinace", "img_url": "../../../assets/images/koordinace.jpg"},
-                    {"name": "Svatební design", "caption": "Svatební design", "img_url": "../../../assets/images/design.jpg"},
-                    {"name": "Květinový servis", "caption": "Květinový servis", "img_url": "../../../assets/images/kvetinovyservis.jpg"},
-                    {"name": "Rozlučka se svobodou", "caption": "Rozlučka se svobodou", "img_url": "../../../assets/images/rozlucka.jpg"},
-                    {"name": "Tiskoviny", "caption": "Tiskoviny", "img_url": "../../../assets/images/tiskoviny.jpg"}
-                ],
-                "contact": {
-                    "title": "Kontaktujte nás",
-                    "text": "Pokud Vás naše nabídka zaujala, neváhejte se nám ozvat přes kontaktní formulář, nebo zavolejte na uvedené číslo. První schůzka je zcela zdarma. Během ní prodiskutujeme Vaše představy, přání a naše služby, které byste chtěli využít.",
-                    "formLabels": {
-                        "name": "Vaše jméno",
-                        "email": "Vaše e-mailová adresa",
-                        "phone": "Vaše telefonní číslo",
-                        "message": "Vaše zpráva",
-                        "button": "Odeslat"
-                    },
-                    "contactInfo": "Jana Cápová & Kateřina Čechová\njsme@jk-holkynavdavani.cz\n+420 737 641 648\nStředočeský kraj, Praha i zbytek ČR"
-                }
-            },
-            "about": [
-                {"heading": "Jana Cápová",
-                 "text": "Vždycky jsem svatbu vnímala jako překrásný den, který patří jen nevěstě a ženichovi. Baví mě ta specifická energie svatebního dne. Nikdy bych ale neřekla, kolik je za tím vším času a práce. Až při přípravě vlastní svatby jsem pochopila, že je toho na jednoho člověka opravdu hodně. A zpětně mi bylo líto, že jsem neměla po ruce člověka, který by se o všechno postaral. Nakonec jsem musela zaúkolovat družičky, aby mi během dne pomáhaly. Na druhou stranu jsem ale zjistila, že mě ta práce opravdu naplňuje a baví. Takže když mě o pomoc s organizací svých svateb začaly žádat kamarádky, neváhala jsem - svým dílem jsem tak pomohla dát dohromady krásné svatby, kde se všichni skvěle bavili a novomanželé si užili svůj den bez obav a stresu. A protože mám to štěstí, že mám dlouholetou kamarádku, která se stejně jako já klidně rozkrájí, jen aby ten den bylo všechno podle představ novomanželů, rozhodly jsme se, že se koordinaci svateb budeme věnovat profesionálně. Už se těšíme na tu Vaši!",
-                 "image": "../../../assets/images/janka.jpg"
-                },
-                {"heading": "Kateřina Čechová",
-                 "text": "Svatby mě vždy fascinovaly. Už jako malé jsme se sestrou vybíhaly ven před dům, když jsme zaslechly troubení svatební kolony, abychom zahlédly nevěstu. Zůstalo mi to dodnes společně s radostí, když před zámkem nebo radnicí náhodou vidím svatebčany. Protože mám díky svému hlavnímu oboru blízko k floristice, tak jsem vázala svatební kytice pro všechny své kamarádky a později i pro přátele známých. Díky kamarádkám, kterým jsem šla za svědkyni, jsem si osvojila i další potřebné dovednosti spojené s přípravou jejich velkého dne. Kromě květinové výzdoby a dalších dekorací jsem dostala na starost například i grafické zpracování svatebních oznámení a dalších tiskovin. Bavilo mě i vymýšlet různé ozdoby a tematické potisky na trička pro rozlučku se svobodou. A teď všechny své zkušenosti ráda využiji i při přípravě Vašeho svatebního dne.",
-                 "image": "../../../assets/images/kacka.jpg"
-                }
-            ],
-            "services": [
-                {
-                    "heading": "Svatba na klíč",
-                    "text": "Máte spoustu povinností a na plánování svatby už Vám nezbývá čas? Chcete se vyhnout stresu a možným chybám spojeným se zařizováním, nebo Vás to jednoduše nebaví, ale chcete mít perfektní svatební den? Vše zařídíme za Vás - jediná starost, která Vám zůstane, bude říct 'ano' :)",
-                    "image1": "../../../assets/images/sl-svatbanaklic1.jpg",
-                    "image2": "../../../assets/images/sl-svatbanaklic2.jpg"
-                },
-                {
-                    "heading": "Svatební koordinace",
-                    "text": "Zvládnete si před svatbou vše připravit sami a potřebujete jen někoho, kdo by koordinoval dění během svatebního dne? Pak je pro vás vhodná tato varianta.",
-                    "image1": "../../../assets/images/sl-koor1.jpg",
-                    "image2": "../../../assets/images/sl-koor2.jpg"
-                },
-                {
-                    "heading": "Svatební design",
-                    "text": "Hledáte někoho, kdo by vyzdobil místo obřadu a/nebo svatební hostiny tak, aby splňovala Vaše představy? Navrhneme a vyrobíme Vám originální dekorace, které budou odrážet Vaše osobnosti a záliby.",
-                    "image1": "../../../assets/images/sl-design1.jpg",
-                    "image2": "../../../assets/images/sl-design2.jpg"
-                },
-                {
-                    "heading": "Květinový servis",
-                    "text": "Květiny ke svatbě neodmyslitelně patří. Ať už si přejete jen květinu pro nevěstu a korsáž pro ženicha, nebo komplexní květinovou výzdobu místa obřadu i hostiny, dáme si záležet, aby vše bylo přesně podle Vašich představ.",
-                    "image1": "../../../assets/images/sl-kvservis1.jpg",
-                    "image2": "../../../assets/images/sl-kvservis2.jpg"
-                },
-                {
-                    "heading": "Tiskoviny",
-                    "text": "Přejete si, aby všechny tiskoviny ladily dohromady? Vytvoříme pro Vás vše od svatebního oznámení, přes svatební noviny, menu až po různé uvítací a informační cedule ve Vámi vybraném designu.",
-                    "image1": "../../../assets/images/sl-ozn1.jpg",
-                    "image2": "../../../assets/images/sl-ozn2.jpg"
-                },
-                {
-                    "heading": "Rozlučka se svobodou",
-                    "text": "Přejete si mít nezapomenutelnou rozlučku se svobodou vyzdobenou originální výzdobou, kterou nikdo jiný mít nebude? Stačí když nám zadáte téma a my vám navrhneme design, který můžeme natisknout na trička, placky, tašky, nebo jiné upomínkové předměty.",
-                    "image1": "../../../assets/images/sl-rozl1.jpg",
-                    "image2": "../../../assets/images/sl-rozl2.jpg"
-                }
-            ],
-            "references": [
-                {
-                    "link": "michaela-lubos",
-                    "caption": "Michaela & Luboš",
-                    "img_url": "../../../assets/images/ref1.jpg",
-                    "reference": ["V počátcích přípravy svatby jsem si myslela, že služby koordinátorek na svatbě jsou zbytečné. Ovšem ve svatební den jsem se na vlastní kůži přesvědčila, že opak je pravdou. Naštěstí jsem měla za svědkyni úžasnou Káťu, která se zhostila snad úplně všech rolí, které koordinátorky zastávají a i spousty věcí navíc. Navrhla nám vlastní originální design svatebního oznámení a k tomu veškeré další tiskoviny ve stejném designu, takže k sobě všechno krásně ladilo. Květinovou výzdobu, svatební kytici atd. jsem nechala zcela na ní, jen jsem si řekla barvy, ukázala inspirační fotky a z výsledku jsem byla nadšená. O víkendech jsme vyráběly svatební dekorace, nezalekla se ani osazování skleněných aerárií.",
-                        "Já měla ještě to štěstí, že mi Káťa upekla výborný svatební dort a jako překvapení pusinky s obtisky se svatebním motivem :)",
-                        "Poslední věc, kterou chci zmínit, že Káťa vám zařídí super věci na rozlučku se svobodou, třeba jako mě, kdy jsme všechny holky měly originální trička a placky s vlastním neokoukaným motivem, který sama kreslila."
-                    ]
-                },
-                {
-                    "link": "janka-honza",
-                    "caption": "Janka & Honza",
-                    "img_url": "../../../assets/images/ref2.jpg",
-                    "reference": ["Chcela by som všetkým nevestám odporučiť Janku a jej služby svadobnej koordinátorky, vďaka ktorým sme si užili náš svadobný deň naplno. Príprava svadby je časovo náročná, aj keď sa to na prvý pohľad nemusí zdať. Aj preto som bola rada, že mi Janka poskytla pomocnú ruku pri plánovaní a doladovaní každého detailu. Má cit pre maličkosti a svoju prácu robí s láskou.",
-                        "Z našich schôdzok som vždy odchádzala s úsmevom na perách a dobrým pocitom, že je všetko pod kontrolou. Koordinácia samotného svadobného dňa bola čerešničkou na torte. Všetci hostia si mohli plne užívať deň a Janka sa o všetko potrebné postarala.",
-                        "Ešte raz veľmi pekne ďakujeme!"
-                    ]
-                },
-                {
-                    "link": "lucka-bolek",
-                    "caption": "Lucka & Bolek",
-                    "img_url": "../../../assets/images/ref3.jpg",
-                    "reference": ["Milé nevěsty,",
-                        "pokud se rozhodujete, zda si najmout svatební koordinaci, tak Janka s Kačkou jsou ta správná volba pro Vás. Od začátku až do samého konce naší spolupráce jsem si přidala jako v bavlnce, vlastně jako když svatební přípravy plánujete s kamarádkami. Obě holky jsou neskutečně milé a vstřícné, v náš velký den klaplo vše tak, jak mělo a holkám patří velké díky. Strašně moc jsem se bála,ale naprosto zbytečně a určitě nelituji této investice, opravdu stála za to. V koutku duše doufám, že se ještě někdy naše cesty spojí, protože mi holky padly do noty.",
-                        "Holky, patří Vám velké díky a je vidět, že to co děláte, děláte se zapálením a láskou.",
-                        "Snad brzo zase naviděnou",
-                        "Vaše nevěsta Luci"
-                    ]
-                }                
-            ]
+  "content": {
+    "cz": {
+      "menu": ["Úvod", "O nás", "Služby", "Reference", "Blog", "Kontakt"],
+      "footer": {
+        "text": "&copy; {year} Holky na vdávání. Všechna práva vyhrazena."
+      },
+      "home": {
+        "headerImages": [
+          { "image": "../../../assets/images/title1.jpg", "alt": "..." },
+          { "image": "../../../assets/images/title2.jpg", "alt": "..." },
+          { "image": "../../../assets/images/title3.jpg", "alt": "..." },
+          { "image": "../../../assets/images/title4.jpg", "alt": "..." },
+          { "image": "../../../assets/images/title5.jpg", "alt": "..." },
+          { "image": "../../../assets/images/title6.jpg", "alt": "..." }
+        ],
+        "welcome": {
+          "text": "Hledáte někoho, kdo by Vám pomohl s přípravou celé svatby, nebo jen s organizací svatebního dne? Někoho, kdo do svatby dá celé srdce a připraví všechno podle Vašich představ do nejmenších detailů? Pak jste tady správně! Jsme dvě holky, které se tak nadchly do svatebních příprav svých kamarádek, že se staly profesionálními koordinátorkami a rády pomohou s touto jedinečnou událostí i Vám.",
+          "img_url": "../../../assets/images/profile.jpg"
+        },
+        "servicesGrid": [
+          {
+            "name": "Svatba na klíč",
+            "caption": "Svatba na klíč",
+            "img_url": "../../../assets/images/svatbanaklic.jpg"
+          },
+          {
+            "name": "Svatební koordinace",
+            "caption": "Svatební koordinace",
+            "img_url": "../../../assets/images/koordinace.jpg"
+          },
+          {
+            "name": "Svatební design",
+            "caption": "Svatební design",
+            "img_url": "../../../assets/images/design.jpg"
+          },
+          {
+            "name": "Květinový servis",
+            "caption": "Květinový servis",
+            "img_url": "../../../assets/images/kvetinovyservis.jpg"
+          },
+          {
+            "name": "Rozlučka se svobodou",
+            "caption": "Rozlučka se svobodou",
+            "img_url": "../../../assets/images/rozlucka.jpg"
+          },
+          {
+            "name": "Tiskoviny",
+            "caption": "Tiskoviny",
+            "img_url": "../../../assets/images/tiskoviny.jpg"
+          }
+        ],
+        "contact": {
+          "title": "Kontaktujte nás",
+          "text": "Pokud Vás naše nabídka zaujala, neváhejte se nám ozvat přes kontaktní formulář, nebo zavolejte na uvedené číslo. První schůzka je zcela zdarma. Během ní prodiskutujeme Vaše představy, přání a naše služby, které byste chtěli využít.",
+          "formLabels": {
+            "name": "Vaše jméno",
+            "email": "Vaše e-mailová adresa",
+            "phone": "Vaše telefonní číslo",
+            "message": "Vaše zpráva",
+            "button": "Odeslat"
+          },
+          "contactInfo": "Jana Cápová & Kateřina Čechová\njsme@jk-holkynavdavani.cz\n+420 737 641 648\nStředočeský kraj, Praha i zbytek ČR"
         }
+      },
+      "about": [
+        {
+          "heading": "Jana Cápová",
+          "text": "Vždycky jsem svatbu vnímala jako překrásný den, který patří jen nevěstě a ženichovi. Baví mě ta specifická energie svatebního dne. Nikdy bych ale neřekla, kolik je za tím vším času a práce. Až při přípravě vlastní svatby jsem pochopila, že je toho na jednoho člověka opravdu hodně. A zpětně mi bylo líto, že jsem neměla po ruce člověka, který by se o všechno postaral. Nakonec jsem musela zaúkolovat družičky, aby mi během dne pomáhaly. Na druhou stranu jsem ale zjistila, že mě ta práce opravdu naplňuje a baví. Takže když mě o pomoc s organizací svých svateb začaly žádat kamarádky, neváhala jsem - svým dílem jsem tak pomohla dát dohromady krásné svatby, kde se všichni skvěle bavili a novomanželé si užili svůj den bez obav a stresu. A protože mám to štěstí, že mám dlouholetou kamarádku, která se stejně jako já klidně rozkrájí, jen aby ten den bylo všechno podle představ novomanželů, rozhodly jsme se, že se koordinaci svateb budeme věnovat profesionálně. Už se těšíme na tu Vaši!",
+          "image": "../../../assets/images/janka.jpg"
+        },
+        {
+          "heading": "Kateřina Čechová",
+          "text": "Svatby mě vždy fascinovaly. Už jako malé jsme se sestrou vybíhaly ven před dům, když jsme zaslechly troubení svatební kolony, abychom zahlédly nevěstu. Zůstalo mi to dodnes společně s radostí, když před zámkem nebo radnicí náhodou vidím svatebčany. Protože mám díky svému hlavnímu oboru blízko k floristice, tak jsem vázala svatební kytice pro všechny své kamarádky a později i pro přátele známých. Díky kamarádkám, kterým jsem šla za svědkyni, jsem si osvojila i další potřebné dovednosti spojené s přípravou jejich velkého dne. Kromě květinové výzdoby a dalších dekorací jsem dostala na starost například i grafické zpracování svatebních oznámení a dalších tiskovin. Bavilo mě i vymýšlet různé ozdoby a tematické potisky na trička pro rozlučku se svobodou. A teď všechny své zkušenosti ráda využiji i při přípravě Vašeho svatebního dne.",
+          "image": "../../../assets/images/kacka.jpg"
+        }
+      ],
+      "services": [
+        {
+          "heading": "Svatba na klíč",
+          "text": "Máte spoustu povinností a na plánování svatby už Vám nezbývá čas? Chcete se vyhnout stresu a možným chybám spojeným se zařizováním, nebo Vás to jednoduše nebaví, ale chcete mít perfektní svatební den? Vše zařídíme za Vás - jediná starost, která Vám zůstane, bude říct 'ano' :)",
+          "image1": "../../../assets/images/sl-svatbanaklic1.jpg",
+          "image2": "../../../assets/images/sl-svatbanaklic2.jpg"
+        },
+        {
+          "heading": "Svatební koordinace",
+          "text": "Zvládnete si před svatbou vše připravit sami a potřebujete jen někoho, kdo by koordinoval dění během svatebního dne? Pak je pro vás vhodná tato varianta.",
+          "image1": "../../../assets/images/sl-koor1.jpg",
+          "image2": "../../../assets/images/sl-koor2.jpg"
+        },
+        {
+          "heading": "Svatební design",
+          "text": "Hledáte někoho, kdo by vyzdobil místo obřadu a/nebo svatební hostiny tak, aby splňovala Vaše představy? Navrhneme a vyrobíme Vám originální dekorace, které budou odrážet Vaše osobnosti a záliby.",
+          "image1": "../../../assets/images/sl-design1.jpg",
+          "image2": "../../../assets/images/sl-design2.jpg"
+        },
+        {
+          "heading": "Květinový servis",
+          "text": "Květiny ke svatbě neodmyslitelně patří. Ať už si přejete jen květinu pro nevěstu a korsáž pro ženicha, nebo komplexní květinovou výzdobu místa obřadu i hostiny, dáme si záležet, aby vše bylo přesně podle Vašich představ.",
+          "image1": "../../../assets/images/sl-kvservis1.jpg",
+          "image2": "../../../assets/images/sl-kvservis2.jpg"
+        },
+        {
+          "heading": "Tiskoviny",
+          "text": "Přejete si, aby všechny tiskoviny ladily dohromady? Vytvoříme pro Vás vše od svatebního oznámení, přes svatební noviny, menu až po různé uvítací a informační cedule ve Vámi vybraném designu.",
+          "image1": "../../../assets/images/sl-ozn1.jpg",
+          "image2": "../../../assets/images/sl-ozn2.jpg"
+        },
+        {
+          "heading": "Rozlučka se svobodou",
+          "text": "Přejete si mít nezapomenutelnou rozlučku se svobodou vyzdobenou originální výzdobou, kterou nikdo jiný mít nebude? Stačí když nám zadáte téma a my vám navrhneme design, který můžeme natisknout na trička, placky, tašky, nebo jiné upomínkové předměty.",
+          "image1": "../../../assets/images/sl-rozl1.jpg",
+          "image2": "../../../assets/images/sl-rozl2.jpg"
+        }
+      ],
+      "references": [
+        {
+          "link": "michaela-lubos",
+          "caption": "Michaela & Luboš",
+          "img_url": "../../../assets/images/ref1.jpg",
+          "reference": [
+            "V počátcích přípravy svatby jsem si myslela, že služby koordinátorek na svatbě jsou zbytečné. Ovšem ve svatební den jsem se na vlastní kůži přesvědčila, že opak je pravdou. Naštěstí jsem měla za svědkyni úžasnou Káťu, která se zhostila snad úplně všech rolí, které koordinátorky zastávají a i spousty věcí navíc. Navrhla nám vlastní originální design svatebního oznámení a k tomu veškeré další tiskoviny ve stejném designu, takže k sobě všechno krásně ladilo. Květinovou výzdobu, svatební kytici atd. jsem nechala zcela na ní, jen jsem si řekla barvy, ukázala inspirační fotky a z výsledku jsem byla nadšená. O víkendech jsme vyráběly svatební dekorace, nezalekla se ani osazování skleněných aerárií.",
+            "Já měla ještě to štěstí, že mi Káťa upekla výborný svatební dort a jako překvapení pusinky s obtisky se svatebním motivem :)",
+            "Poslední věc, kterou chci zmínit, že Káťa vám zařídí super věci na rozlučku se svobodou, třeba jako mě, kdy jsme všechny holky měly originální trička a placky s vlastním neokoukaným motivem, který sama kreslila."
+          ]
+        },
+        {
+          "link": "janka-honza",
+          "caption": "Janka & Honza",
+          "img_url": "../../../assets/images/ref2.jpg",
+          "reference": [
+            "Chcela by som všetkým nevestám odporučiť Janku a jej služby svadobnej koordinátorky, vďaka ktorým sme si užili náš svadobný deň naplno. Príprava svadby je časovo náročná, aj keď sa to na prvý pohľad nemusí zdať. Aj preto som bola rada, že mi Janka poskytla pomocnú ruku pri plánovaní a doladovaní každého detailu. Má cit pre maličkosti a svoju prácu robí s láskou.",
+            "Z našich schôdzok som vždy odchádzala s úsmevom na perách a dobrým pocitom, že je všetko pod kontrolou. Koordinácia samotného svadobného dňa bola čerešničkou na torte. Všetci hostia si mohli plne užívať deň a Janka sa o všetko potrebné postarala.",
+            "Ešte raz veľmi pekne ďakujeme!"
+          ]
+        },
+        {
+          "link": "lucka-bolek",
+          "caption": "Lucka & Bolek",
+          "img_url": "../../../assets/images/ref3.jpg",
+          "reference": [
+            "Milé nevěsty,",
+            "pokud se rozhodujete, zda si najmout svatební koordinaci, tak Janka s Kačkou jsou ta správná volba pro Vás. Od začátku až do samého konce naší spolupráce jsem si přidala jako v bavlnce, vlastně jako když svatební přípravy plánujete s kamarádkami. Obě holky jsou neskutečně milé a vstřícné, v náš velký den klaplo vše tak, jak mělo a holkám patří velké díky. Strašně moc jsem se bála,ale naprosto zbytečně a určitě nelituji této investice, opravdu stála za to. V koutku duše doufám, že se ještě někdy naše cesty spojí, protože mi holky padly do noty.",
+            "Holky, patří Vám velké díky a je vidět, že to co děláte, děláte se zapálením a láskou.",
+            "Snad brzo zase naviděnou",
+            "Vaše nevěsta Luci"
+          ]
+        },
+        {
+          "link": "katka-honza",
+          "caption": "Katka & Honza",
+          "img_url": "../../../assets/images/ref4.jpg",
+          "reference": [""]
+        }
+      ]
     }
+  }
 }
