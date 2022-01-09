@@ -1,13 +1,15 @@
 <div class="home">
-    <app-header [imageList]="homeContent.headerImages"></app-header>
-    <app-divider></app-divider>
-    <app-text-with-side-image
-        [text]="homeContent.welcome.text"
-        [imageLink]="homeContent.welcome.img_url"></app-text-with-side-image>
-    <app-divider></app-divider>
-    <app-grid
-        [items]="homeContent.servicesGrid"></app-grid>
-    <app-divider></app-divider>
-    <app-contact
-        [content]="homeContent.contact"></app-contact>
+  <app-header [imageList]="homeContent.headerImages"></app-header>
+  <app-divider></app-divider>
+  <app-text-with-side-image
+    [text]="homeContent.welcome.text"
+    [imageLink]="homeContent.welcome.img_url"
+  ></app-text-with-side-image>
+  <app-divider></app-divider>
+  <app-grid
+    [items]="homeContent.servicesGrid"
+    [context]="'services'"
+  ></app-grid>
+  <app-divider></app-divider>
+  <app-contact [content]="homeContent.contact"></app-contact>
 </div>

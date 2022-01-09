@@ -22,32 +22,38 @@
           {
             "name": "Svatba na klíč",
             "caption": "Svatba na klíč",
-            "img_url": "../../../assets/images/svatbanaklic.jpg"
+            "img_url": "../../../assets/images/svatbanaklic.jpg",
+            "fragment": "svatba-na-klic"
           },
           {
             "name": "Svatební koordinace",
             "caption": "Svatební koordinace",
-            "img_url": "../../../assets/images/koordinace.jpg"
+            "img_url": "../../../assets/images/koordinace.jpg",
+            "fragment": "svatebni-koordinace"
           },
           {
             "name": "Svatební design",
             "caption": "Svatební design",
-            "img_url": "../../../assets/images/design.jpg"
+            "img_url": "../../../assets/images/design.jpg",
+            "fragment": "svatebni-design"
           },
           {
             "name": "Květinový servis",
             "caption": "Květinový servis",
-            "img_url": "../../../assets/images/kvetinovyservis.jpg"
+            "img_url": "../../../assets/images/kvetinovyservis.jpg",
+            "fragment": "kvetinovy-servis"
           },
           {
             "name": "Rozlučka se svobodou",
             "caption": "Rozlučka se svobodou",
-            "img_url": "../../../assets/images/rozlucka.jpg"
+            "img_url": "../../../assets/images/rozlucka.jpg",
+            "fragment": "rozlucka-se-svobodou"
           },
           {
             "name": "Tiskoviny",
             "caption": "Tiskoviny",
-            "img_url": "../../../assets/images/tiskoviny.jpg"
+            "img_url": "../../../assets/images/tiskoviny.jpg",
+            "fragment": "tiskoviny"
           }
         ],
         "contact": {
@@ -77,36 +83,42 @@
       ],
       "services": [
         {
+          "id": "svatba-na-klic",
           "heading": "Svatba na klíč",
           "text": "Máte spoustu povinností a na plánování svatby už Vám nezbývá čas? Chcete se vyhnout stresu a možným chybám spojeným se zařizováním, nebo Vás to jednoduše nebaví, ale chcete mít perfektní svatební den? Vše zařídíme za Vás - jediná starost, která Vám zůstane, bude říct 'ano' :)",
           "image1": "../../../assets/images/sl-svatbanaklic1.jpg",
           "image2": "../../../assets/images/sl-svatbanaklic2.jpg"
         },
         {
+          "id": "svatebni-koordinace",
           "heading": "Svatební koordinace",
           "text": "Zvládnete si před svatbou vše připravit sami a potřebujete jen někoho, kdo by koordinoval dění během svatebního dne? Pak je pro vás vhodná tato varianta.",
           "image1": "../../../assets/images/sl-koor1.jpg",
           "image2": "../../../assets/images/sl-koor2.jpg"
         },
         {
+          "id": "svatebni-design",
           "heading": "Svatební design",
           "text": "Hledáte někoho, kdo by vyzdobil místo obřadu a/nebo svatební hostiny tak, aby splňovala Vaše představy? Navrhneme a vyrobíme Vám originální dekorace, které budou odrážet Vaše osobnosti a záliby.",
           "image1": "../../../assets/images/sl-design1.jpg",
           "image2": "../../../assets/images/sl-design2.jpg"
         },
         {
+          "id": "kvetinovy-servis",
           "heading": "Květinový servis",
           "text": "Květiny ke svatbě neodmyslitelně patří. Ať už si přejete jen květinu pro nevěstu a korsáž pro ženicha, nebo komplexní květinovou výzdobu místa obřadu i hostiny, dáme si záležet, aby vše bylo přesně podle Vašich představ.",
           "image1": "../../../assets/images/sl-kvservis1.jpg",
           "image2": "../../../assets/images/sl-kvservis2.jpg"
         },
         {
+          "id": "tiskoviny",
           "heading": "Tiskoviny",
           "text": "Přejete si, aby všechny tiskoviny ladily dohromady? Vytvoříme pro Vás vše od svatebního oznámení, přes svatební noviny, menu až po různé uvítací a informační cedule ve Vámi vybraném designu.",
           "image1": "../../../assets/images/sl-ozn1.jpg",
           "image2": "../../../assets/images/sl-ozn2.jpg"
         },
         {
+          "id": "rozlucka-se-svobodou",
           "heading": "Rozlučka se svobodou",
           "text": "Přejete si mít nezapomenutelnou rozlučku se svobodou vyzdobenou originální výzdobou, kterou nikdo jiný mít nebude? Stačí když nám zadáte téma a my vám navrhneme design, který můžeme natisknout na trička, placky, tašky, nebo jiné upomínkové předměty.",
           "image1": "../../../assets/images/sl-rozl1.jpg",

@@ -1,18 +1,20 @@
-import { Component, Input } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { ContentService } from '../../services/content/content.service';
 
 @Component({
-    selector: 'app-grid',
-    templateUrl: './grid.component.html',
-    styleUrls: ['./grid.component.scss']
+  selector: 'app-grid',
+  templateUrl: './grid.component.html',
+  styleUrls: ['./grid.component.scss'],
 })
-export class GridComponent {
-    @Input()
-    items: any[];
-    @Input()
-    context: string;
+export class GridComponent implements OnInit {
+  @Input()
+  items: any[];
+  @Input()
+  context: string;
 
-    constructor() {};
+  constructor() {}
 
-    
+  ngOnInit(): void {
+    console.log(this.context);
+  }
 }

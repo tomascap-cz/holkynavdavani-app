@@ -3,7 +3,7 @@ import { Component, Input, OnInit } from '@angular/core';
 @Component({
   selector: 'app-text-with-two-images',
   templateUrl: './text-with-two-images.component.html',
-  styleUrls: ['./text-with-two-images.component.scss']
+  styleUrls: ['./text-with-two-images.component.scss'],
 })
 export class TextWithTwoImagesComponent implements OnInit {
   @Input()
@@ -14,10 +14,10 @@ export class TextWithTwoImagesComponent implements OnInit {
   imageLink1: string;
   @Input()
   imageLink2: string;
+  @Input()
+  sectionId: string;
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
-  }
-
+  ngOnInit(): void {}
 }

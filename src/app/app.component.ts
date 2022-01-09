@@ -5,16 +5,12 @@ import { ContentService } from './shared/services/content/content.service';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: ['./app.component.scss'],
 })
 export class AppComponent implements OnInit {
   title = 'holkynavdavani-app';
 
-  constructor(private readonly contentService: ContentService) {
+  constructor(private readonly contentService: ContentService) {}
 
-  }
-
-  ngOnInit(): void {
-    this.contentService
-  }
+  ngOnInit(): void {}
 }

@@ -1,7 +1,11 @@
 <div class="grid">
-        <app-card *ngFor="let item of items"
-        [text]="item.caption"
-        [img_url]="item.img_url"
-        [alt]="item.caption"
-        [link]="item.link"></app-card>
+  <app-card
+    *ngFor="let item of items"
+    [text]="item.caption"
+    [img_url]="item.img_url"
+    [alt]="item.caption"
+    [link]="item.link"
+    [fragment]="item.fragment"
+    [context]="context"
+  ></app-card>
 </div>
